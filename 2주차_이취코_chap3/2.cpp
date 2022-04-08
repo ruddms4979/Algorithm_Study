@@ -1,3 +1,4 @@
+
 // 다양한 수의 배열이 있을때 이 수를 이용해서 M번 더했을때 가장 큰 수를 만드는 방법
 // but 각 특정한 인덱스의 수가 연속해서 K번을 초과할 수 없음
 // 사실상 가장 큰 수 두개만 사용한다!!
@@ -8,11 +9,13 @@
 
 using namespace std;
 
-vector<int> v;
-int n, m, k;
+
 
 int main() {
- 
+
+    int n, m, k;
+    vector<int> v;
+    
     cin >> n >> m >> k;
 
     //배열을 벡터를 사용해서 입력 받음
